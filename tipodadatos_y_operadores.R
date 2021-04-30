@@ -73,7 +73,9 @@ variable1 <- T
 
 4 < 3
 4 <= 4
-10 == 9
+11 >= 20
+10 == 9 # igual igual a
+10 != 10 # distinto
 "hola" == "hola"
 "uno" <= "dos" # !!!!! ALERTA ¡¡¡ Esto no esta bien
 TRUE == FALSE
@@ -84,13 +86,11 @@ variable1 <- 10 == 9
 
 a <- 4
 b <- 9
-
 variable1 <- a < b
 
 
 a <- 10
 b <- 9
-
 variable1 <- a < b
 
 
