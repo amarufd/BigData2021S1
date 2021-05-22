@@ -101,3 +101,125 @@ if(nombrePersona == "pedro" || nombrePersona == "juan"){
 
 
 
+########################################################################################################
+################################# CONDICIONAL IF - ELSE IF - ELSE ######################################
+########################################################################################################
+
+
+# buscando con manuel
+
+nombrePersona <- 'manuel'
+
+if(nombrePersona == 'pedro'){
+  print("Felicitaciones!! econtraste a pedro")
+}else if(nombrePersona == 'antonio' ){
+  print("Felicitaciones!! econtraste a antonio")
+}else{
+  print("Esta persona no existe")
+}
+
+
+# buscando con pedro
+
+nombrePersona <- 'pedro'
+
+if(nombrePersona == 'pedro'){
+  print("Felicitaciones!! econtraste a pedro")
+}else if(nombrePersona == 'antonio' ){
+  print("Felicitaciones!! econtraste a antonio")
+}else{
+  print("Esta persona no existe")
+}
+
+
+###### EJER:
+## Determinar si un numero es par, impar u otra cosa (tarea)
+## Determinar quien gana cuando se juega piedra papel y tijera
+
+################ 1er ensayo
+
+jugador1 <- 'papel'
+jugador2 <- 'tijera'
+
+
+if(jugador1 == jugador2){
+  print("Empate")
+}else if((jugador1 == 'piedra' || jugador2 == 'piedra') && (jugador1 == 'tijera' || jugador2 == 'tijera')){
+  if(jugador2 == 'piedra'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}else if((jugador1 == 'papel' || jugador2 == 'papel') && (jugador1 == 'tijera' || jugador2 == 'tijera')){
+  if(jugador2 == 'tijera'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}else{
+  if(jugador2 == 'papel'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}
+
+
+################ 2do ensayo
+
+jugador1 <- 'papel'
+jugador2 <- 'papel'
+
+
+if(jugador1 == jugador2){
+  print("Empate")
+}else if((jugador1 == 'piedra' || jugador2 == 'piedra') && (jugador1 == 'tijera' || jugador2 == 'tijera')){
+  if(jugador2 == 'piedra'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}else if((jugador1 == 'papel' || jugador2 == 'papel') && (jugador1 == 'tijera' || jugador2 == 'tijera')){
+  if(jugador2 == 'tijera'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}else{
+  if(jugador2 == 'papel'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}
+
+################ 3 ensayo
+jugador1 <- 'papel'
+jugador2 <- 'piedra'
+
+
+if(jugador1 == jugador2){
+  print("Empate")
+}else if((jugador1 == 'piedra' || jugador2 == 'piedra') && (jugador1 == 'tijera' || jugador2 == 'tijera')){
+  if(jugador2 == 'piedra'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}else if((jugador1 == 'papel' || jugador2 == 'papel') && (jugador1 == 'tijera' || jugador2 == 'tijera')){
+  if(jugador2 == 'tijera'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}else{
+  if(jugador2 == 'papel'){
+    print("Gana jugador 2")
+  }else{
+    print('Gana jugador 1')
+  }
+}
+
+
+
+
