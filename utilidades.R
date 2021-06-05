@@ -23,3 +23,20 @@ paste("las personas se llaman",b,"y",a)
 # cambiando el elemento separador
 paste("las personas se llaman",b,"y",a, sep = "%")
 paste("las personas se llaman",b,"y",a, sep = ",")
+
+
+##### [sample] crear elemtos de manera aleatoria
+
+# creando 5 ejemplos entre 1 y 10
+resultadoDelSample <- sample(1:10, 5)
+resultadoDelSample
+
+# creando 20 entre 1 y 10
+resultadoDelSample <- sample(1:10, 20 , replace = T)
+resultadoDelSample
+
+
+# creando vector de frutas y verduras
+vectordDefrutasYVerduras <- c('tomate','lechuga','pepino dulce','pera','manzana')
+resultadoDelSampleConFrutasYverduras <- sample(vectordDefrutasYVerduras, 6, replace = T)
+resultadoDelSampleConFrutasYverduras
