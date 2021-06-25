@@ -2,32 +2,93 @@
 <html>
     <head>
         <title>Mi primera web de flores</title>
+        <style>
+            
+            /* definiendo los tags */
+            body {
+                background-color: thistle;
+            } 
+
+            /* agregando bordes al div */
+            /* div {
+                border: 1px solid blueviolet;
+                text-align: center;
+            } */
+            
+            /* agregando bordes a la tabla */
+            table, tr, th, td {
+                border: 1px solid black;
+                background-color: goldenrod;
+            }
+
+            /* definiendo la clases */
+            .articulo {
+                background-color: palegoldenrod;
+                border: rgb(250, 114, 243) 1px solid;
+            }
+
+            .head {
+                background-color: lavender;
+                color: purple;
+                border: transparent solid 1px;
+            }
+
+            .centrado-texto {
+                text-align: center;
+            }
+
+            /* Definiendo Ids */
+            #otras-flores {
+                background-color: yellowgreen;
+                border: transparent solid 1px;
+            }
+
+            #footer {
+                background-color: black;
+                color: azure;
+                border: transparent solid 1px;
+            }
+            
+        </style>
     </head>
     <body>
         <div>
-            <h1>Div Contenedor</h1>
-            <div>
-                <h1>Div1</h1>
-                <h1>Flores</h1>
-                <h2>Orejas de oso</h2>
-                <a href="https://es.wikipedia.org/wiki/Impatiens_walleriana">Link orejas de oso a Wikipedia</a>
+            <div class="head centrado-texto">
+                <h1>El mundo de las flores</h1>
             </div>
-            <div>
-                <h1>Div2</h1>
-                <table>
+            <div class="articulo centrado-texto">
+                <h2>Orejas de oso</h2>
+                <div>
+                    bla bla bla ...
+                </div>
+                <div>
+                    <a href="https://es.wikipedia.org/wiki/Impatiens_walleriana"><img src="250px-Impatienswalleriana.jpg"></a>
+                </div>
+                <div>
+                    <a href="https://es.wikipedia.org/wiki/Impatiens_walleriana">Link orejas de oso a Wikipedia</a>
+                </div>
+            </div>
+            <div class="centrado-texto" id="otras-flores" >
+                <h1>Otras Flores</h1>
+                <table style="width: 100%;">
                     <!-- agregando una fila -->
                     <tr>
                         <!-- agregando columnas tipo titulo (th) -->
                         <th>Nombre de la flor</th>
-                        <th>link a wikipedia</th>
+                        <th>Link a wikipedia</th>
+                        <th>Imagen</th>
                     </tr>
                     <!-- agregando una fila -->
                     <tr>
                         <!-- agregando columnas normales (td) -->
                         <td>Ave del paraiso</td>
                         <td><a href="https://es.wikipedia.org/wiki/Strelitzia_reginae">link</a></td>
+                        <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Dictionnaire_universel_d%27histoire_naturelle_%28Monocotyledones_Pl._16%29_%286436304509%29.jpg/250px-Dictionnaire_universel_d%27histoire_naturelle_%28Monocotyledones_Pl._16%29_%286436304509%29.jpg" height="100px"></td>
                     </tr>
                 </table>
+            </div>
+            <div id="footer" >
+                Realizado por Amaru Fern&aacute;ndez
             </div>
         </div>
     </body>
