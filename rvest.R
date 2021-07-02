@@ -81,7 +81,6 @@ tabla <- html_table(index)[[1]]
 # de la tabla
 print(tabla$`Nombre de la flor`[1])
 
-
 print(html_attr(tabla,"href"))
 
 
