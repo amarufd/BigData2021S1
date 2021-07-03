@@ -40,3 +40,16 @@ resultadoDelSample
 vectordDefrutasYVerduras <- c('tomate','lechuga','pepino dulce','pera','manzana')
 resultadoDelSampleConFrutasYverduras <- sample(vectordDefrutasYVerduras, 6, replace = T)
 resultadoDelSampleConFrutasYverduras
+
+
+# probando substring
+textocnuf <- "UF 19,80)*"
+print(textocnuf)
+print(substr(textocnuf, 1, 2))
+print(substr(textocnuf, 1, 2)=="UF")
+
+
+# buscar ayuda en R
+help(strsplit)
+
+
